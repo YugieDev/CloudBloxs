@@ -1,0 +1,30 @@
+name: Cloud
+author: Yugie, Clip
+main: com.yugiedev.Cloud.Main
+version: 1.0
+
+commands:
+    website:
+        description: Website link
+    store:
+        description: Store link
+        aliases: [buy, donate, donations]
+    twitter:
+        description: Twitter link
+    links:
+        description: Support
+    vote:
+        description: Vote
+    Staff:
+        description: Staff List
+    gmc:
+        description: Gamemode
+    gms:
+        description: Gamemode
+    gma:
+        description: Gamemode
+
+permissions:
+    cloudbloxs.gamemode:
+       description: Allow the use of the gamemode
+       default: op
